@@ -32,7 +32,7 @@ const VoiceSection = () => {
             <div className='font-bold flex justify-center items-center text-xl md:text-2xl leading-9'>
                 {/* create a 2px solid straight line with a color of tblack  */}
                 <p className="border-b-2 border-tblack w-16  mr-2 p-0"></p>
-                <span className="m-0 p-0 font-extrabold">
+                <span className="m-0 p-0 font-medium text-sm">
                voice
                 </span>
 

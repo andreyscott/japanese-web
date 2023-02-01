@@ -5,6 +5,10 @@ import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
 import { CTA } from '@/components/CTA'
 import VoiceSection from '@/components/VoiceSection'
+import Grid from '@/components/Grid'
+import Faq from '@/components/Faq'
+import { FaqSection } from '@/components/FaqSection'
+import Footer from '@/components/Footer'
 
 
 export default function Home() {
@@ -116,6 +120,20 @@ export default function Home() {
       <VoiceSection />
 
       </section>
+
+      <>
+      <Grid />
+      </>
+
+      <>
+      <FaqSection />
+      </>
+
+      <>
+      <Footer />
+      </>
+
+
       </main>
     
     </>
