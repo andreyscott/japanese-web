@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Noto Sans JP' 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+}
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  .bottom-tri{
+     width: 0;
+     height: 0;
+     border-bottom: 300px solid #9D1515;
+     border-right: 100px solid transparent;
+  }
+  .top-tri {
+    width: 0;
+    height: 0;
+    border-top: 300px solid #9D1515;
+    border-left: 100px solid transparent;
+  }
+
+  .paral {
+    width: 150px;
+    height: 100px;
+    transform: skew(-20deg);
+    background: #9D1515;
+  }
+
+}
