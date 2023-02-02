@@ -8,7 +8,7 @@ export const CTA = () => {
     return (
         <>
        {/* first flex direction column justify center align center */}
-         <div className='flex flex-col justify-center items-center bg-black md:bg-[#222222]/60 w-screen'>
+         <div className='flex flex-col justify-center items-center bg-black py-14 md:py-0 md:bg-[#222222]/60 w-screen'>
 {/* 3 icons with text here svg first flex direction column justify center align center md: grid */}
                 <div className=' flex flex-col justify-center md:px-2 items-center w-full'>
                     {/* ribbon banner images and icons for public/svgs */}
@@ -88,9 +88,7 @@ export const CTA = () => {
 
                                 </div>
                                 
-                                </div>
-
-        
+                                </div>       
         </div>
         <div className=' w-full pb-4 '>
                         {/* 3 icons here svg first flex direction column justify center align center md: grid  */}

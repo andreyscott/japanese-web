@@ -5,11 +5,18 @@ const VoiceSection = () => {
         <div className=' px-2 bg-base w-full flex flex-col justify-center items-center'>
             <div className="w-full flex justify-center items-center text-center pb-5">
                <div className='flex flex-col w-96 py-4  text-tblack justify-center items-center'>
-            <p className=' font-bold text-xl md:text-2xl leading-9 '>
+            <div className=' font-bold text-xl py-10 mt-5 md:text-2xl leading-9 '>
+           <span className="pb-10">
+
             TKO PERSONAL TRAININGは 
+           </span>
+
             <br />
-             パーソナルコーチによる 個別トレーニング・栄養指導で
-          </p>
+            <br />
+           <span className="py-5 mt-4">
+           パーソナルコーチによる 個別トレーニング・栄養指導で
+           </span>
+          </div>
          <h6 className='font-bold text-xl md:text-2xl leading-9 py-5'>
           <span className=" border-b-4 border-primaryRed m-0 p-0 font-extrabold">
             ご利用者満足度96％を
@@ -71,7 +78,7 @@ const VoiceSection = () => {
                 いまではお友達もでき、同じ目標に向かって一緒に頑張っています。(100文字程度）
                 </p>
 
-                <p className="text-end pb-4 font-medium text-base leading-6 text-tblack tracking-tighter">
+                <p className="text-end pb-4 mb-10 font-medium text-base leading-6 text-tblack tracking-tighter">
                 20代　女性　OL
                 </p>
                 
