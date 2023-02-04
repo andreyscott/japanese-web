@@ -28,12 +28,39 @@ body{
      border-bottom: 300px solid #9D1515;
      border-right: 100px solid transparent;
   }
+
+  .bottom-tri-v{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #9D1515;
+    border-right: 500px solid transparent;
+ }
+
+  @media (min-width: 368px) {
+    .bottom-tri-v{
+      width: 0;
+      height: 0;
+      border-bottom: 50px solid #9D1515;
+      border-right: 400px solid transparent;
+   }
+
+    }
+  
   .top-tri {
     width: 0;
     height: 0;
     border-top: 300px solid #9D1515;
     border-left: 100px solid transparent;
   }
+
+  .top-tri-v {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #9D1515;
+    border-right: 500px solid transparent;
+  
+  }
+  
 
   .paral {
     width: 150px;
