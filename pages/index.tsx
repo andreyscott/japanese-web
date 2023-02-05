@@ -103,7 +103,7 @@ export default function Home() {
                initial={{ x: 500, opacity: 0, scale: 0.5 }}
                animate={{ x: 0, opacity: 1, scale: 1 }}
                transition={{ duration: 1.5 }}
-            className='absolute bottom-14 md:bottom-72 md:right-3 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
+            className='absolute bottom-14 md:top-72 bot md:right-3 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
     <div className='flex flex-col font-black items-start'>
 
               <div className='w-fit bg-white h-fit md:text-4xl text-2xl m-3 font-bold paral'>
@@ -125,7 +125,7 @@ export default function Home() {
 
 
                 </div>
-                <div className='mt-20 md:hidden pl-5 flex items-center justify-center mx-auto'>
+                <div className='mt-20 md:hidden pl-1 flex items-center justify-center mx-auto'>
                   <Button />
 </div>
                 </div>

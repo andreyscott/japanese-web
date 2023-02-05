@@ -4,7 +4,7 @@ const Button = () => {
     <div>
       {/* /* create a cta button component with a prop of type string and display the prop in the button the button should have a  border and a icon to the rigth use the above in tailwind  */}
 
-      <button className="flex flex-row relative text-center items-center justify-center  p-2 md:p-3 w-96 md:text-[500px]  h-12 md:h-10 mb-2 bg-white hover:bg-primaryRed text-primaryRed hover:text-white border-2 border-primaryRed rounded-lg">
+      <button className="flex flex-row relative text-center items-center justify-center  p-2 w-[25rem] md:w-[500px] md:mb-4 h-12 md:h-14 mb-2 bg-white hover:bg-primaryRed text-primaryRed hover:text-white border-2 border-primaryRed rounded-lg">
         <p className="font-bold text-lg md:text-xl">webから体験予約をする!!</p>
         {/* create a rigth angle icon with color primaryRed when hovered it turns white and add it to the right of the button  */}
         <svg

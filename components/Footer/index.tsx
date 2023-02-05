@@ -4,6 +4,7 @@ import { RxDoubleArrowUp } from 'react-icons/rx'
 
 import { CTA } from "../CTA";
 import { motion } from "framer-motion";
+import { CTAF } from "../CTAf";
 
 const Footer = () => {
     return (
@@ -15,17 +16,17 @@ const Footer = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.5 }}
 
-             className="max-w-7xl flex flex-col md:flex-row justify-between items-center mx-auto py-10 px-2 overflow-hidden sm:px-6 lg:px-8">
+             className="flex flex-col h-full md:flex-row justify-between items-center mx-auto py-10 px-2 overflow-hidden sm:px-6 lg:px-8">
                 
                     <Image
                     src="/images/img.png"
                     alt="Picture of a girl working out"
-                    width={600}
-                    height={800}
+                    width={650}
+                    height={870}
                     />
 
 
-                     <CTA />
+                     <CTAF />
 
 
                 

@@ -10,7 +10,7 @@ export const CTA = () => {
        {/* first flex direction column justify center align center */}
          <div className='flex flex-col justify-center items-center bg-black py-14 md:py-0 md:bg-[#222222]/60 w-screen'>
 {/* 3 icons with text here svg first flex direction column justify center align center md: grid */}
-                <div className=' flex flex-col justify-center md:px-2 items-center w-full'>
+                <div className='flex flex-col justify-center md:px-2 items-center w-full'>
                     {/* ribbon banner images and icons for public/svgs */}
                     <div className='w-full justify-center px-3 items-center'>
                         <Image src='/svgs/ribbon-img.svg' 
@@ -28,12 +28,12 @@ export const CTA = () => {
                          alt='TKO Banner Image' />
 
                     </div>
-                    <div className='md:grid grid-cols-2 md:grid-cols-3 md:max-w-3xl lg:max-w-4xl md:mx-2'>
-                    <div className=' w-full pb-4 px-2 md:flex md:justify-center md:items-center md:w-full md:px-0'> 
+                    <div className='md:grid grid-cols-2 gap-0 gap-x-0  md:grid-cols-3 md:max-w-4xl lg:max-w-5xl md:mx-2'>
+                    <div className='w-full pb-4 px-2 md:flex md:justify-center md:items-center md:w-full md:px-0'> 
                         {/* 3 icons here svg first flex direction column justify center align center md: grid  */}
                         <div className='flex flex-col md:justify-center justify-start md:items-center items-start w-56 '>
 
-                      <div className='flex flex-row justify-between w-80 md:px-3 md:w-64 ml-7 md:ml-0 items-center'>
+                      <div className='flex flex-row justify-between w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64 ml-7 md:ml-0 items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon1.svg'
                                 layout='fixed'
@@ -44,13 +44,13 @@ export const CTA = () => {
 
                                 <div className='flex flex-col justify-center items-center'>
 <p>
-    <span className='text-base gap-y-5 md:gap-y-3 font-medium text-white'>入会金の
+    <span className='text-base md:text-sm lg:text-lg gap-y-5 md:gap-y-3 font-medium text-white'>入会金の
     <br/>
 ¥4,980が</span>
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl lg:text-5xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     ¥0
                                     </h2>
 
@@ -62,9 +62,9 @@ export const CTA = () => {
         </div>
         <div className=' w-full my-1  px-2 md:px-0'>
                         {/* 3 icons here svg first flex direction column justify center align center md: grid  */}
-                        <div className='w-full pb-4 px-2  md:px-2 md:flex md:justify-center md:items-center md:w-fit'>
+                        <div className='w-full pb-4 px-2  md:px-0 lg:px-2 md:flex md:justify-center md:items-center md:w-fit'>
 
-                      <div className='flex flex-row  justify-between w-80 md:px-3  ml-7 md:ml-3  md:w-64 items-center'>
+                      <div className='flex flex-row  justify-between w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64  ml-7 md:ml-0 lg:ml-2  items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon2.svg'
                                 layout='fixed'
@@ -75,14 +75,14 @@ export const CTA = () => {
 
                                 <div className='flex flex-col justify-center items-center'>
 <p>
-    <span className='text-base gap-y-5 font-medium text-white'>   初月の
+    <span className='text-base md:text-sm lg:text-lg gap-y-5 font-medium text-white'>   初月の
     <br />
 利用料が
 </span>
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl lg:text-5xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     ¥0
                                     </h2>
 
@@ -94,7 +94,7 @@ export const CTA = () => {
                         {/* 3 icons here svg first flex direction column justify center align center md: grid  */}
                         <div className='flex flex-col md:justify-center justify-start md:items-center items-start w-full md:grid gap-3 '>
 
-                      <div className='flex flex-row justify-between px-3 md:px-2 w-96 md:w-80 ml-7 items-center'>
+                      <div className='flex flex-row justify-between px-3  w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64 ml-7 items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon3.svg'
                                 layout='fixed'
@@ -105,14 +105,14 @@ export const CTA = () => {
 
                                 <div className='flex flex-col justify-center items-center'>
 <p>
-    <span className='text-base gap-y-5 font-medium text-white'>  専用ロッカー
+    <span className='text-base md:text-sm lg:text-lg gap-y-5 font-medium text-white'>  専用ロッカー
     <br />
 月額利用料が
 </span>
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl lg:text-5xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     半額
                                     </h2>
 
