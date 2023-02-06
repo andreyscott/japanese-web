@@ -16,7 +16,7 @@ const VoiceSection = () => {
           objectPosition="center"
           />
           </div>
-          <div className='absolute  animate z-0  bottom-32 left-0'>
+          <div className='absolute  animate z-0  bottom-32 lg:bottom-16 xl:bottom-32 left-0'>
               
               <div 
                    className='bottom-tri-v '>
@@ -28,6 +28,26 @@ const VoiceSection = () => {
               <div className='top-tri-v' >
               </div>
             </div>
+
+            {/* create a box with width 43px and height 124px with a text col and an arrow pointing downwards  */}
+            <div className='absolute hidden md:block top-3 lg:top-2 right-0 md:right-0 z-10'>
+              <div className='flex col w-20 px-3 h-52 md:h-56 pb-2 bg-primaryRed text-white hover:bg-white hover:text-primaryRed transition-all duration-700 ease-in-out flex-col justify-center items-center'>
+              {/* 体験入会する */}
+              <div className="h-full flex flex-col justify-center items-center">
+
+              <p className='text-base md:text-sm md:w-6 mb-2 lg:text-lg h-fit text-center w-7 font-bold'>体験入会する</p>
+        
+        <Image src='/svgs/arrow-d.svg' width={8} height={8} alt={'arrow'} />  
+
+ 
+
+        
+
+              </div>
+          
+              </div>
+            </div>
+
 
             <div className="w-full flex justify-center items-center z-10 text-center pb-5">
                <div className='flex flex-col w-96 md:w-[29rem] py-4  text-tblack justify-center items-center'>

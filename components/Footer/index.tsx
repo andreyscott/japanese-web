@@ -16,13 +16,14 @@ const Footer = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.5 }}
 
-             className="flex flex-col h-full md:flex-row justify-between items-center mx-auto py-10 px-2 overflow-hidden sm:px-6 lg:px-8">
+             className="flex flex-col  h-full md:flex-row justify-between items-center mx-auto pb-8 px-2 overflow-hidden sm:px-6 lg:px-8">
                 
                     <Image
                     src="/images/img.png"
                     alt="Picture of a girl working out"
                     width={650}
                     height={870}
+                    className="w-full h-full"
                     />
 
 

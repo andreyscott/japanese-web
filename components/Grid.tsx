@@ -26,7 +26,7 @@ const Grid = () => {
         }
     ]
     return (
-        <section className="py-10 max-w-7xl">
+        <section className="py-10 lg:w-full mx-auto lg:px-14">
              <div className='flex w-full px-4 pr-10 flex-col mb-9 text-end justify-end items-end'>
             <h2
             className=' font-bold text-4xl pb-1 '>
@@ -47,7 +47,7 @@ const Grid = () => {
                         <h1 className="text-xl font-bold text-center mb-3">{item.step}</h1>
                        
                         <div className="flex items-center pb-3 justify-center">
-                            <Image src={item.Image} width={110} height={110} alt={item.title} />
+                            <Image src={item.Image} width={200} height={200} alt={item.title} />
                         </div>
                         <div className="flex flex-col items-center justify-center">
                             <h1 className="text-2xl font-bold text-center pb-3">{item.title}</h1>
