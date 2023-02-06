@@ -30,7 +30,7 @@ module.exports = {
           filter: "blur(2px)",
         },
         "33%": {
-          transform: "translate(30px, -50px) scale(1.1)",
+          transform: "translate(30px, -30px) scale(1.1)",
           filter: "blur(0px)",
         },
         "66%": {

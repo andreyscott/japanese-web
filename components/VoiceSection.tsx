@@ -33,9 +33,9 @@ const VoiceSection = () => {
             <div className='absolute hidden md:block top-3 lg:top-2 right-0 md:right-0 z-10'>
               <div className='flex col w-20 px-3 h-52 md:h-56 pb-2 bg-primaryRed text-white hover:bg-white hover:text-primaryRed transition-all duration-700 ease-in-out flex-col justify-center items-center'>
               {/* 体験入会する */}
-              <div className="h-full flex flex-col justify-center items-center">
+              <div className="h-full flex flex-col justify-center items-center bg-primaryRed text-white hover:bg-white hover:text-primaryRed transition-all duration-700 ease-in-out">
 
-              <p className='text-base md:text-sm md:w-6 mb-2 lg:text-lg h-fit text-center w-7 font-bold'>体験入会する</p>
+              <p className='text-base md:text-sm md:w-6 mb-2 lg:text-lg h-fit text-center w-7 font-bold hover:text-white'>体験入会する</p>
         
         <Image src='/svgs/arrow-d.svg' width={8} height={8} alt={'arrow'} />  
 
@@ -87,15 +87,15 @@ const VoiceSection = () => {
             </div>
 </div>
 <FadeInWhenVisible>
-<div className=" w-full md:max-w-5xl md:grid pb-5 mx-auto z-10 grid-cols-1 md:grid-cols-2  gap-4 gap-y-20 md:gap-y-0 flex flex-col justify-center items-center text-center px-2 py-14">
-            <div className='flex flex-col justify-start px-3 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-26rem] lg:w-[470px] h-[31rem] md:h-96 items-center'>
+<div className=" w-full md:max-w-6xl md:grid pb-5 mx-auto z-10 grid-cols-1 md:grid-cols-2  gap-4 gap-y-20 md:gap-y-0 flex flex-col justify-centesr items-center text-center px-2 py-14">
+            <div className='flex flex-col justify-start px-3 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-27rem] lg:w-[470px] h-[31rem] md:h-96 items-center'>
                   <div className='flex flex-col md:flex-row pb-3  pt-1 w-full '>
                   <div className="-mt-12">
                     <Image
                     src="/images/women-icon-1.png"
                     alt="Picture of women in a gym"
-                    width={161}
-                    height={210}
+                    width={180}
+                    height={220}
                     />
                   </div>
 
@@ -121,7 +121,6 @@ const VoiceSection = () => {
          <br />
          いまではお友達もでき、同じ目標に向かって一緒に頑張っています。(100文字程度）
                         </p>
-        
                         <p className="text-end pb-4 pt-2 font-medium text-base leading-6 text-tblack tracking-tighter">
                         20代　女性　OL
                         </p>
@@ -129,15 +128,16 @@ const VoiceSection = () => {
                     </div>
         
                     </div>
-            <div className='flex flex-col justify-start px-3 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-26rem] lg:w-[470px] h-[31rem] md:h-96 items-center'>
+            {/* <div className='flex flex-col justify-start px-3 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-26rem] lg:w-[470px] h-[31rem] md:h-96 items-center'> */}
+            <div className='flex flex-col justify-start px-3 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-27rem] lg:w-[470px] h-[31rem] md:h-96 items-center'>
 
                   <div className='flex flex-col md:flex-row pb-3  pt-1 w-full '>
                   <div className="-mt-12">
                     <Image
                     src="/images/women-icon-2.png"
                     alt="Picture of women in a gym"
-                    width={161}
-                    height={210}
+                    width={180}
+                    height={220}
                     />
                   </div>
 

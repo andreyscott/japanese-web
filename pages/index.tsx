@@ -13,15 +13,12 @@ import Faq from '@/components/Faq'
 import { FaqSection } from '@/components/FaqSection'
 import Footer from '@/components/Footer'
 import { FadeInWhenVisible } from '@/components/FadeInWhenVisible'
-
-
-
-
+import Link from 'next/link'
 
 
 export default function Home() {
   return (
-    <>
+    <div className=' snap-y snap-mandatory overflow-hidden'>
       <Head>
         <title>TKO Personal Trainer</title>
         <meta name="description" 
@@ -31,9 +28,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
-      <main className=' w-full md:w-screen block overflow-hidden'>
-        {/* create a div justify and align center with a max w-6xl and in the div a background Image should be in it 
-         */}
+      <main className=' w-full  md:w-screen block overflow-hidden'>
+       
+      <section id="hero" className="snap-start">
         <div className='flex justify-center items-center bg-lblack w-full h-screen'>
       
           <div className='max-w-6xl'>
@@ -48,7 +45,7 @@ export default function Home() {
               {/* className='bg-red-500 w-0 h-0 border-b-[100px] border-b-red-500 border-solid-b  '></div> */}
             </div>
 
-            <div className='absolute animate-blob2 top-0 right-3 md:right-5'>
+            <div className='absolute animate-blob2 top-7 right-6 md:right-12'>
               <div className='top-tri' >
               </div>
             </div>
@@ -64,9 +61,8 @@ export default function Home() {
             <Image src='/images/bg-small.png' 
             layout='fill'
             objectPosition='center'
-
-            
-             objectFit='cover' alt={'background Image gym'} />
+             objectFit='cover' 
+             alt={'background Image gym'} />
   </div>
 
 
@@ -91,8 +87,7 @@ export default function Home() {
  
     <FadeInWhenVisible>
       
-            <div 
-            className='hidden absolute bottom-0 right-0 md:flex flex-col items-end justify-center z-40'>
+            <div className='hidden absolute bottom-0 right-0 md:flex flex-col items-end justify-center z-40'>
                   <CTA />
     </div>
 
@@ -103,9 +98,8 @@ export default function Home() {
                initial={{ x: 500, opacity: 0, scale: 0.5 }}
                animate={{ x: 0, opacity: 1, scale: 1 }}
                transition={{ duration: 1.5 }}
-            className='absolute bottom-14 md:top-24 lg:top-14 xl:top-11 md:right-3 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
+            className='absolute  portrait:bottom-12 md:top-0 lg:top-16 xl:top-11 md:right-3 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
     <div className='flex flex-col font-black items-start'>
-
               <div className='w-fit bg-white h-fit md:text-4xl text-2xl m-3 font-bold paral'>
                 <h1 className='text-black px-2'>今度こそ理想の身体に。</h1>
                 </div>
@@ -125,9 +119,12 @@ export default function Home() {
 
 
                 </div>
-                <div className='mt-20 md:hidden pl-1 flex items-center justify-center mx-auto'>
+                <Link  href="#hero">
+                <div className='mt-16 md:hidden pl-1 flex items-center justify-center mx-auto'>
                   <Button />
 </div>
+</Link>
+
                 </div>
 
          
@@ -139,28 +136,32 @@ export default function Home() {
         <div className='flex md:hidden flex-col items-end justify-center'>
                   <CTA />
     </div>
+    </section>
 
-    <section className='flex flex-col items-center z-50 justify-center'>
+    </main>
+
+    <section id='details' className=' snap-center flex flex-col items-center z-50 justify-center'>
       <VoiceSection />
 
       </section>
 
+      <section id="grid" className="snap-start">
       <FadeInWhenVisible>
       <Grid />
 
       </FadeInWhenVisible>
-
-      <>
+</section>
+      <section id='faq' className='snap-start'>
       <FaqSection />
-      </>
+      </section>
 
-      <div className=' bg-tblack'>
+      <section id='footer' className=' bg-tblack'>
       <Footer />
-      </div>
+      </section>
 
 
-      </main>
+      {/* </main> */}
     
-    </>
+    </div>
   )
 }
