@@ -2,6 +2,7 @@
 import Image from 'next/image'
 // import { Inter } from '@next/font/google'
 import Button from '@/components/Button'
+import Link from 'next/link'
 
 
 export const CTA = () => {
@@ -124,8 +125,9 @@ export const CTA = () => {
         
         </div>
 
+<Link href='#footer'>
         <Button />
-
+        </Link>
         
 
 

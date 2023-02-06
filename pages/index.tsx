@@ -119,7 +119,7 @@ export default function Home() {
 
 
                 </div>
-                <Link  href="#hero">
+                <Link  href="#footer">
                 <div className='mt-16 md:hidden pl-1 flex items-center justify-center mx-auto'>
                   <Button />
 </div>
