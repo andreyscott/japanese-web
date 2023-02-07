@@ -1,7 +1,7 @@
 // import ribbon banner images and icons for public/svgs 
 import Image from 'next/image'
 // import { Inter } from '@next/font/google'
-import Button from '@/components/Button'
+import Button from '@/components/Footer/Button'
 
 
 export const CTAF = () => {
@@ -22,7 +22,7 @@ export const CTAF = () => {
 
 <Image src='/svgs/ribbon-img-lg.svg' 
                         layout='fixed'
-                        width={500}
+                        width={700}
                         height={40}
                         className='my-7 hidden md:block  mx-auto'
                          alt='TKO Banner Image' />
@@ -37,12 +37,12 @@ export const CTAF = () => {
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon1.svg'
                                 layout='fixed'
-                                width={70}
-                                height={70}
+                                width={60}
+                                height={60}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
-                                <div className='flex lg:px-2 xl:px-3 flex-col  justify-center items-center'>
+                                <div className='flex md:px-1 flex-col  justify-center items-center'>
 <p>
     <span className='text-base md:text-sm lg:text-base gap-y-5 md:gap-y-3 font-medium text-white'>入会金の
     <br/>
@@ -50,7 +50,7 @@ export const CTAF = () => {
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl md:text-3xl lg:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl xl:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     ¥0
                                     </h2>
 
@@ -68,8 +68,8 @@ export const CTAF = () => {
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon2.svg'
                                 layout='fixed'
-                                width={70}
-                                height={70}
+                                width={60}
+                                height={60}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
@@ -82,7 +82,7 @@ export const CTAF = () => {
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl md:text-3xl lg:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl xl:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     ¥0
                                     </h2>
 
@@ -98,8 +98,8 @@ export const CTAF = () => {
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon3.svg'
                                 layout='fixed'
-                                width={70}
-                                height={70}
+                                width={60}
+                                height={60}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
@@ -112,7 +112,7 @@ export const CTAF = () => {
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl md:text-3xl lg:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl xl:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     半額
                                     </h2>
 
@@ -126,7 +126,8 @@ export const CTAF = () => {
 
 <div className='w-full items-center justify-center flex overflow-hidden pt-4'>
 
-        <Button />
+        <Button
+        />
 
         
         </div>
