@@ -22,7 +22,7 @@ export default function Home() {
       <Head>
         <title>TKO Personal Trainer</title>
         <meta name="description" 
-        content="TKO Personal Trainer is a comprehensive fitness platform that provides personalized training programs to help you reach your fitness goals. Our experienced and certified trainers use cutting-edge technology to create customized workout plans tailored to your specific needs and preferences. Whether you're a beginner looking to get in shape or a seasoned athlete looking to take your performance to the next level, TKO has the tools and expertise to help you achieve your goals. Join us today and take your fitness journey to the next level with TKO Personal Trainer."
+        content=" TKO Personal Trainer 是一个综合健身平台，提供个性化的训练计划，帮助您实现健身目标。我们经验丰富且经过认证的培训师使用尖端技术来创建适合您的特定需求和偏好的定制锻炼计划。无论您是希望保持体形的初学者，还是希望将自己的表现提升到一个新水平的经验丰富的运动员，TKO 都有工具和专业知识来帮助您实现目标。立即加入我们，通过 TKO 私人教练将您的健身之旅提升到一个新的水平。"
          />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -51,9 +51,6 @@ export default function Home() {
             </div>
 
             {/* create a nav menu with 3 text as logo align to the left and no links  */}
-           
-
-
 
 <div className=' w-full h-full'>
   <div     className='m-0 lg:hidden z-20' >
@@ -84,7 +81,6 @@ export default function Home() {
                
             </nav>
 
- 
     <FadeInWhenVisible>
       
             <div className='hidden absolute bottom-0 right-0 md:flex flex-col items-end justify-center z-40'>
@@ -98,8 +94,8 @@ export default function Home() {
                initial={{ x: 500, opacity: 0, scale: 0.5 }}
                animate={{ x: 0, opacity: 1, scale: 1 }}
                transition={{ duration: 1.5 }}
-            className='absolute  portrait:bottom-12 md:top-0 lg:top-16 xl:top-11 md:right-3 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
-    <div className='flex flex-col font-black items-start'>
+            className='absolute  md:top-20 lg:top-36 xl:top-20 md:right-3 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
+    <div className='flex mt-10 flex-col font-black items-start'>
               <div className='w-fit bg-white h-fit md:text-4xl text-2xl m-3 font-bold paral'>
                 <h1 className='text-black px-2'>今度こそ理想の身体に。</h1>
                 </div>

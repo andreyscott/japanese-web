@@ -38,8 +38,8 @@ export const CTA = () => {
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon1.svg'
                                 layout='fixed'
-                                width={80}
-                                height={80}
+                                width={65}
+                                height={65}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
@@ -69,8 +69,8 @@ export const CTA = () => {
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon2.svg'
                                 layout='fixed'
-                                width={80}
-                                height={80}
+                                width={65}
+                                height={65}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
@@ -102,8 +102,8 @@ export const CTA = () => {
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon3.svg'
                                 layout='fixed'
-                                width={80}
-                                height={80}
+                                width={65}
+                                height={65}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
@@ -127,13 +127,6 @@ export const CTA = () => {
         
         </div>
 
-
-
-        
-       
-        
-
-        
         </div>
 
 <Link href='#footer'>
