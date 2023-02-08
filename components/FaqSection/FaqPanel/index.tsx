@@ -42,14 +42,27 @@ export const FaqPanel: React.FC<FaqPanelProps> = ({
         <h3 className="text-tblack ">{title}</h3>
         <button
           className={`${
-            showAnswer === true ? 'bg-[#9fa4a8]' : ' bg-transparent'
+            showAnswer === true ? 'flex items-center justify-center' : ' bg-transparent'
           } flex h-[30px] w-[30px] items-center justify-center rounded-full`}
           onClick={() => setShowAnswer(!showAnswer)}
         >
           {showAnswer === true ? (
-            <FaTimes color="#333" />
+            // minus
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            className="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18h12" />
+          </svg>
+
+            
+       
+
           ) : (
-            <FiChevronDown size={25} />
+
+            // <FiChevronDown size={25} />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+            className="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+          </svg>
           )}
         </button>
       </div>
