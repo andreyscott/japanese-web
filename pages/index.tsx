@@ -34,8 +34,7 @@ export default function Home() {
       <Head>
         <title>TKO Personal Trainer</title>
         <meta name="description" 
-        content=" TKO Personal Trainer 是一个综合健身平台，提供个性化的训练计划，帮助您实现健身目标。我们经验丰富且经过认证的培训师使用尖端技术来创建适合您的特定需求和偏好的定制锻炼计划。无论您是希望保持体形的初学者，还是希望将自己的表现提升到一个新水平的经验丰富的运动员，TKO 都有工具和专业知识来帮助您实现目标。立即加入我们，通过 TKO 私人教练将您的健身之旅提升到一个新的水平。"
-         />
+        content="TKO Personal Trainer は、フィットネスの目標を達成するのに役立つパーソナライズされたトレーニング プランを提供する包括的なフィットネス プラットフォームです。経験豊富で認定を受けたトレーナーが最先端のテクノロジーを使用して、お客様の特定のニーズや好みに合わせたカスタム ワークアウト プログラムを作成します。体型を維持したい初心者でも、パフォーマンスを次のレベルに引き上げたいベテラン アスリートでも、TKO には、目標を達成するのに役立つツールと専門知識があります。今日参加して、TKO パーソナル トレーナーと一緒にフィットネスの旅を次のレベルに引き上げましょう。"         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 

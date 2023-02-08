@@ -153,12 +153,10 @@ const VoiceSection = () => {
             {/* <div className='flex flex-col justify-start px-3 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-26rem] lg:w-[470px] h-[31rem] md:h-96 items-center'> */}
             <div
               data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-delay="50"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-anchor-placement="top-center"    
+              data-aos-anchor-placement="top-center"   
             className='flex flex-col justify-start px-3 ml-1 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-27rem] lg:w-[470px] h-[31rem] md:h-96 items-center'>
 
                   <div className='flex flex-col md:flex-row pb-3  pt-1 w-full '>
