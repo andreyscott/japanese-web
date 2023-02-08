@@ -50,13 +50,6 @@ const VoiceSection = () => {
         className="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3" />
 </svg>
-
-
-
-
-
- 
-
         
 
               </div>
@@ -108,10 +101,12 @@ const VoiceSection = () => {
 {/* <FadeInWhenVisible> */}
 <div className="w-full md:max-w-7xl md:grid pb-5 mx-auto z-10 grid-cols-1 md:grid-cols-2  gap-4 gap-y-20 md:gap-y-0 flex flex-col justify-centesr items-center text-center py-14">
           
-            <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.5, delay: 0.5 }}            
+            <div
+             data-aos="fade-up"
+             data-aos-duration="1000"
+             data-aos-easing="ease-in-out"
+             data-aos-mirror="true"
+             data-aos-anchor-placement="top-center"        
           
              className='flex flex-col justify-start px-3 bg-white mr-2 drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-27rem] lg:w-[470px] h-[31rem] md:h-96 items-center'
              
@@ -154,12 +149,16 @@ const VoiceSection = () => {
                         
                     </div>
         
-                    </motion.div>
+                    </div>
             {/* <div className='flex flex-col justify-start px-3 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-26rem] lg:w-[470px] h-[31rem] md:h-96 items-center'> */}
-            <motion.div
-             initial={{ opacity: 0, y: 100 }}
-             animate={{ opacity: 1, y: 0 }}
-             transition={{ duration: 1.5, delay: 0.5 }}    
+            <div
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-anchor-placement="top-center"    
             className='flex flex-col justify-start px-3 ml-1 bg-white drop-shadow-2xl shadow-xl border-b-2 border-r-2 border-tblack shadow-tblack  w-[21rem] md:w-[w-27rem] lg:w-[470px] h-[31rem] md:h-96 items-center'>
 
                   <div className='flex flex-col md:flex-row pb-3  pt-1 w-full '>
@@ -200,7 +199,7 @@ const VoiceSection = () => {
                         
                     </div>
         
-                    </motion.div>
+                    </div>
             
 
 </div>

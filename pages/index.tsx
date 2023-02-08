@@ -1,10 +1,10 @@
+import React, {useEffect} from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Inter } from '@next/font/google'
 
 
-import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
 import { CTA } from '@/components/CTA'
 import VoiceSection from '@/components/VoiceSection'
@@ -15,8 +15,20 @@ import Footer from '@/components/Footer'
 import { FadeInWhenVisible } from '@/components/FadeInWhenVisible'
 import Link from 'next/link'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+// You can also use <link> for styles
+// ..
+
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 850,
+      once: false,
+    });
+  }, []);
   return (
     <div className=' snap-y snap-mandatory overflow-hidden'>
       <Head>

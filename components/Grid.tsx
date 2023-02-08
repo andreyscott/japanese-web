@@ -8,21 +8,24 @@ const Grid = () => {
             step: 'STEP 1',
             Image: '/svgs/icon1.svg',
             title: 'ご予約',
-            description: 'webより体験入会の ご予約をしてください。'
+            description: 'webより体験入会の ',
+           desc: 'ご予約をしてください。'
         },
         {
             id: '1',
             step: 'STEP 2',
             Image: '/svgs/icon2.svg',
             title: '体験当日',
-            description: '当日は動きやすい服装で  お越しください。'
+            description: '当日は動きやすい服装で',
+            desc:  'お越しください。',
         },
         {
             id: '2',
             step: 'STEP 3',
             Image: '/svgs/icon3.svg',
             title: 'ご入会',
-            description: '体験当日の申し込みで 特典が適応されます。'
+            description: '体験当日の申し込みで', 
+            desc: '特典が適応されます。',
         }
     ]
     return (
@@ -51,7 +54,9 @@ const Grid = () => {
                         </div>
                         <div className="flex flex-col items-center justify-center">
                             <h1 className="text-2xl font-bold text-center pb-3">{item.title}</h1>
-                            <p className="text-center text-inherit text-base font-medium w-44 md:w-48">{item.description}</p>
+                            <p className="text-center text-inherit text-base font-medium w-44 md:w-48">{item.description}
+                            <br/>{item.desc}
+                            </p>
                         </div>
                     </div>
                 ))}
