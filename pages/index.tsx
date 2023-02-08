@@ -90,22 +90,23 @@ export default function Home() {
     </FadeInWhenVisible>
 
             {/* bottom content with a div amnd 3 divs inside it all flex -column  */}
+               
                <motion.div
                initial={{ x: 500, opacity: 0, scale: 0.5 }}
                animate={{ x: 0, opacity: 1, scale: 1 }}
                transition={{ duration: 1.5 }}
-            className='absolute  md:top-20 lg:top-36 xl:top-20 md:right-3 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
-    <div className='flex mt-10 flex-col font-black items-start'>
-              <div className='w-fit bg-white h-fit md:text-4xl text-2xl m-3 font-bold paral'>
-                <h1 className='text-black px-2'>今度こそ理想の身体に。</h1>
+            className='absolute  md:bottom-64 lg:top-44 xl:bottom-44 md:right-3 lg:right-28 xl:right-40 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
+    <div className='flex flex-col mb-20 lg:mb-10 font-black items-start'>
+              <div className='w-fit bg-white h-fit md:text-4xl text-2xl m-3 font-bold md:font-extrabold paral'>
+                <h1 className='text-black px-2 md:font-extrabold'>今度こそ理想の身体に。</h1>
                 </div>
                 <div className='bg-white w-fit h-fit m-2 md:text-4xl text-xl font-bold paral'>
-                <h1 className='text-black px-1 f'>
+                <h1 className='text-black px-1 md:font-extrabold'>
                 あなただけのダイエットプランで
                 </h1>
                 </div>
                 <div className='bg-white w- w-fit h-fit m-2 text-2xl md:text-4xl font-bold paral'>
-                <h1 className='text-black font px-2'>
+                <h1 className='text-black font px-2 md:font-extrabold'>
                  <span
                  className='text-primaryRed'>
                   続けられる
