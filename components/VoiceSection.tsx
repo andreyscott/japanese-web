@@ -85,7 +85,7 @@ const VoiceSection = () => {
             
             達成いたしました!!
 
-            <div className="border-b-[11px] border-primaryRed  w-96 z-10 -mt-3"></div>
+            <div className="border-b-[11px] hidden md:flex border-primaryRed  w-96 z-10 -mt-3"></div>
             </h6>
 </div>
 </div>
