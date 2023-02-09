@@ -106,18 +106,18 @@ export default function Home() {
                initial={{ x: 500, opacity: 0, scale: 0.5 }}
                animate={{ x: 0, opacity: 1, scale: 1 }}
                transition={{ duration: 1.5 }}
-            className='absolute  md:bottom-64 lg:top-44 xl:bottom-44 md:right-3 lg:right-28 xl:right-40 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
-    <div className='flex flex-col mb-20 lg:mb-10 font-black items-start'>
-              <div className='w-fit bg-white h-fit md:text-4xl text-2xl m-3 font-bold md:font-extrabold paral'>
-                <h1 className='text-black px-2 md:font-extrabold'>今度こそ理想の身体に。</h1>
+            className='absolute mt-28 md:mt-0  md:bottom-64 lg:top-44 xl:bottom-44 md:right-3 lg:right-28 xl:right-40 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
+    <div className='flex flex-col lg:mb-10 font-black items-start'>
+              <div className='w-fit bg-white h-fit md:text-4xl text-2xl m-3  font-extrabold  md:font-black paral'>
+                <h1 className='text-black px-2 font-extrabold  md:font-black'>今度こそ理想の身体に。</h1>
                 </div>
                 <div className='bg-white w-fit h-fit m-2 md:text-4xl text-xl font-bold paral'>
-                <h1 className='text-black px-1 md:font-extrabold'>
+                <h1 className='text-black px-1 font-extrabold  md:font-black'>
                 あなただけのダイエットプランで
                 </h1>
                 </div>
                 <div className='bg-white w- w-fit h-fit m-2 text-2xl md:text-4xl font-bold paral'>
-                <h1 className='text-black font px-2 md:font-extrabold'>
+                <h1 className='text-black font px-2 font-extrabold  md:font-black'>
                  <span
                  className='text-primaryRed'>
                   続けられる
