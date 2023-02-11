@@ -41,7 +41,7 @@ const Footer = () => {
                 </motion.div>
                 <Link href="#hero">
 
-                <div className=" w-14 absolute bottom-1 right-2 h-fit py-3 animate-bounce bg-primaryRed">
+                <div className=" w-14 absolute top-0 md:bottom-2s right-2 h-fit py-3 animate-bounce bg-primaryRed">
 <div className="w-full flex flex-col justify-center items-center">
 
          {/* create two rigth angle icon  face up with color primaryRed when hovered it turns white and position it center */}
@@ -52,7 +52,6 @@ const Footer = () => {
                 
                 </div>
                 </Link>
-
 
                 </footer>      
                 

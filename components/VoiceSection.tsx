@@ -75,10 +75,11 @@ const VoiceSection = () => {
           <span className=" m-0 p-0 font-extrabold">
             ご利用者満足度<span className="text-5xl">96</span>％を
             </span>
+            <span className="border-b-[10px] flex md:hidden border-primaryRed w-72 md:w-80 z-10 -mt-4"></span>
             
             達成いたしました!!
 
-            <div className="border-b-[11px] hidden md:flex border-primaryRed  w-96 z-10 -mt-3"></div>
+            <div className="border-b-[11px] hidden md:flex border-primaryRed w-96 z-10 -mt-3"></div>
             </h6>
 </div>
 </div>

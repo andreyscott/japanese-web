@@ -37,10 +37,10 @@ const FAQS = [
 
 export const FaqSection: React.FC<FaqSectionProps> = () => {
   return (
-    <section id="faq" className=" mt-8 py-32 bg-white text-tblack">
+    <section id="faq" className=" mt-8 pt-32 bg-white text-tblack">
       <div className=" text-tblack">
         <div className="flex flex-col items-center justify-center">
-        <div className='flex w-full px-4 flex-col mb-9 text-end justify-center items-center'>
+        <div className='flex w-full px-4 flex-col mb-9 text-end justify-start items-start md:justify-center md:items-center'>
             <h2
             className=' font-bold text-4xl pb-1 '>
           よくある質問

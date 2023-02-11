@@ -106,7 +106,7 @@ export default function Home() {
                initial={{ x: 500, opacity: 0, scale: 0.5 }}
                animate={{ x: 0, opacity: 1, scale: 1 }}
                transition={{ duration: 1.5 }}
-            className='absolute mt-28 md:mt-0  md:bottom-64 lg:top-44 xl:bottom-44 md:right-3 lg:right-28 xl:right-40 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
+            className='absolute mt-24 md:mt-0  md:bottom-64 lg:top-44 xl:bottom-44 md:right-3 lg:right-28 xl:right-40 right-[0%]  w-full flex flex-col justify-center items-start md:items-end z-50 text-center'>
     <div className='flex flex-col lg:mb-10 font-black items-start'>
               <div className='w-fit bg-white h-fit md:text-4xl text-2xl m-3  font-extrabold  md:font-black paral'>
                 <h1 className='text-black px-2 font-extrabold  md:font-black'>今度こそ理想の身体に。</h1>
@@ -128,7 +128,7 @@ export default function Home() {
 
                 </div>
                 <Link  href="#footer">
-                <div className='mt-16 md:hidden pl-1 flex items-center justify-center mx-auto'>
+                <div className='my-5 md:my-0 md:mt-16 md:hidden pl-1 flex items-center justify-center mx-auto'>
                   <Button />
 </div>
 </Link>

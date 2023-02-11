@@ -117,15 +117,14 @@ export const CTA = () => {
                                 </div>
                                     {/* number  */}
                                     <h2 className='text-4xl md:text-3xl lg:text-5xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
-                                    ¥0
+                                    半額
                                     </h2>
 
                                 </div>
                                 
                                 </div>
 
-        
-        </div>
+               </div>
 
         </div>
 
