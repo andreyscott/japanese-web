@@ -90,11 +90,11 @@ export const CTAF = () => {
                                 
                                 </div>       
         </div>
-        <div className='w-full pb-4'>
+        <div className=' w-full my-1  px-2 md:px-0'>
                         {/* 3 icons here svg first flex direction column justify center align center md: grid  */}
-                        <div className='flex w-full flex-col md:justify-center justify-start md:items-center items-start w-full md:grid gap-3 '>
+                        <div className='w-full pb-4 md:px-0 lg:px-2 md:flex md:justify-center md:items-center md:w-fit'>
 
-                      <div className='flex flex-row justify-between  md:justify-center px-3  w-[22rem] md:px-1 lg:px-3 lg:w-[21rem] md:w-64 ml-7 items-center'>
+                      <div className='flex flex-row  justify-between md:justify-start 2xl:justify-center w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64  ml-7 md:ml-0 lg:ml-2  items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon3.svg'
                                 layout='fixed'
@@ -104,10 +104,11 @@ export const CTAF = () => {
                                 alt='TKO Icon 1' />
 
                                 <div className='flex flex-col justify-center items-center'>
-<p>
-    <span className='text-base md:text-sm lg:px-1 xl:px-3 lg:text-base gap-y-5 font-medium text-white'>  専用ロッカー
+<p >
+    <span className='text-base md:text-sm lg:px-2 xl:px-3 lg:text-base gap-y-5 font-medium text-white'> 
+          専用ロッカー
     <br />
-月額利用料が
+    月額利用料が
 </span>
 </p>
                                 </div>
@@ -118,9 +119,8 @@ export const CTAF = () => {
 
                                 </div>
                                 
-                                </div>
-                    </div>
-
+                                </div>       
+        </div>
         
         </div>
 
