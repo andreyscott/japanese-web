@@ -29,17 +29,17 @@ export const CTA = () => {
                          alt='TKO Banner Image' />
 
                     </div>
-                    <div className='flex flex-col md:flex-row md:max-w-3xl lg:max-w-3xl md:mx-2'>
+                    <div className='flex flex-col w-[25rem] md:w-full md:flex-row md:max-w-3xl lg:max-w-3xl md:mx-2'>
                     <div className='w-full pb-4 md:flex md:justify-center md:items-center md:w-full'> 
 {/* icon grid start  */}
-                        <div className='flex flex-col md:justify-center justify-start md:items-center items-start '>
+                        <div className='flex flex-col w-full md:justify-center justify-start md:items-center items-start '>
 
-                      <div className='flex flex-row justify-between md:justify-center w-80 md:w-64 ml-7 md:ml-0 items-center'>
+                      <div className='flex flex-row justify-between md:justify-center w-80 md:w-64 0 md:ml-0 items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon1.svg'
                                 layout='fixed'
-                                width={65}
-                                height={65}
+                                width={75}
+                                height={75}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
@@ -65,12 +65,12 @@ export const CTA = () => {
 {/* icon grid start  */}
                         <div className='flex flex-col md:justify-center justify-start md:items-center items-start '>
 
-                      <div className='flex flex-row justify-between md:justify-center w-80 md:w-64 ml-7 md:ml-0 items-center'>
+                      <div className='flex flex-row justify-between md:justify-center w-80 md:w-64 0 md:ml-0 items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon2.svg'
                                 layout='fixed'
-                                width={65}
-                                height={65}
+                                width={75}
+                                height={75}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
@@ -98,12 +98,12 @@ export const CTA = () => {
 {/* icon grid start  */}
                         <div className='flex flex-col md:justify-center justify-start md:items-center items-start '>
 
-                      <div className='flex flex-row justify-between md:justify-center w-80 md:w-72 ml-7 md:ml-0 items-center'>
+                      <div className='flex flex-row justify-between md:justify-center w-80 md:w-80 md:ml-0 items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon3.svg'
                                 layout='fixed'
-                                width={65}
-                                height={65}
+                                width={75}
+                                height={75}
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 

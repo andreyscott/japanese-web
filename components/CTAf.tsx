@@ -28,12 +28,13 @@ export const CTAF = () => {
                          alt='TKO Banner Image' />
 
                     </div>
-                    <div className='md:grid grid-cols-2 gap-0 gap-x-0  md:grid-cols-3  md:mx-2'>
-                    <div className='w-full pb-4 px-2 md:flex md:justify-center md:items-center md:w-full md:px-0'> 
+                    <div className='md:grid grid-cols gap-0 gap-x-0  md:grid-cols-3 w-[25rem] md:w-full'>
+             
+        <div className=' w-full my-1  px-1 md:px-0'>
                         {/* 3 icons here svg first flex direction column justify center align center md: grid  */}
-                        <div className='flex flex-col md:justify-center justify-start md:items-center items-start w-56 '>
+                        <div className='w-full pb-4 md:px-0 lg:px-2 md:flex md:justify-center md:items-center md:w-fit'>
 
-                      <div className='flex flex-row justify-between  md:justify-center w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64 ml-7 md:ml-0 items-center'>
+                      <div className='flex flex-row  justify-between md:justify-start 2xl:justify-center w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64  0 md:ml-0 lg:ml-2  items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon1.svg'
                                 layout='fixed'
@@ -42,11 +43,13 @@ export const CTAF = () => {
                                 className='mx-3 md:mx-0'
                                 alt='TKO Icon 1' />
 
-                                <div className='flex md:px-1 flex-col  justify-center items-center'>
-<p>
-    <span className='text-base md:text-sm lg:text-base gap-y-5 md:gap-y-3 font-medium text-white'>入会金の
-    <br/>
-¥4,980が</span>
+                                <div className='flex flex-col justify-center items-center'>
+<p >
+    <span className='text-base md:text-sm lg:px-2 xl:px-3 lg:text-base gap-y-5 font-medium text-white'>
+        入会金の
+    <br />
+¥4,980が
+</span>
 </p>
                                 </div>
                                     {/* number  */}
@@ -56,15 +59,13 @@ export const CTAF = () => {
 
                                 </div>
                                 
-                                </div>
-
-        
+                                </div>       
         </div>
-        <div className=' w-full my-1  px-2 md:px-0'>
+        <div className=' w-full my-1  px-1 md:px-0'>
                         {/* 3 icons here svg first flex direction column justify center align center md: grid  */}
                         <div className='w-full pb-4 md:px-0 lg:px-2 md:flex md:justify-center md:items-center md:w-fit'>
 
-                      <div className='flex flex-row  justify-between md:justify-start 2xl:justify-center w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64  ml-7 md:ml-0 lg:ml-2  items-center'>
+                      <div className='flex flex-row  justify-between md:justify-start 2xl:justify-center w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64  0 md:ml-0 lg:ml-2  items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon2.svg'
                                 layout='fixed'
@@ -90,11 +91,11 @@ export const CTAF = () => {
                                 
                                 </div>       
         </div>
-        <div className=' w-full my-1  px-2 md:px-0'>
+        <div className=' w-full my-1  px-1 md:px-0'>
                         {/* 3 icons here svg first flex direction column justify center align center md: grid  */}
                         <div className='w-full pb-4 md:px-0 lg:px-2 md:flex md:justify-center md:items-center md:w-fit'>
 
-                      <div className='flex flex-row  justify-between md:justify-start 2xl:justify-center w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64  ml-7 md:ml-0 lg:ml-2  items-center'>
+                      <div className='flex flex-row  justify-between md:justify-start 2xl:justify-center w-80 md:px-1 lg:px-3 lg:w-[21rem] md:w-64  0 md:ml-0 lg:ml-2  items-center'>
                                 {/* Icon 1 */}
                                 <Image src='/svgs/fv-icon3.svg'
                                 layout='fixed'

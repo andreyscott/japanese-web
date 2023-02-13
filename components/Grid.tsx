@@ -30,7 +30,7 @@ const Grid = () => {
     ]
     return (
         <section className="py-10 lg:w-full mx-auto lg:px-14">
-             <div className='flex w-full px-4 pr-10 flex-col mb-10 text-start justify-start items-start'>
+             <div className='flex w-full px-4 pr-10 flex-col mb-10 text-start justify-start items-start md:text-end md:justify-end md:items-end'>
             <h2
             className=' font-bold text-4xl pb-1 '>
             ご利用方法

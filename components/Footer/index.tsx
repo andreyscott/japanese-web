@@ -23,7 +23,7 @@ const Footer = () => {
                     <Image
                     src="/images/img.png"
                     alt="Picture of a girl working out"
-                    width={550}
+                    width={500}
                     height={700}
                     className="w-full h-full"
                     />
