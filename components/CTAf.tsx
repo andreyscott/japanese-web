@@ -45,7 +45,7 @@ export const CTAF = () => {
 
                                 <div className='flex flex-col justify-center items-center'>
 <p >
-    <span className='text-base md:text-sm lg:px-2 xl:px-3 lg:text-base gap-y-5 font-medium text-white'>
+    <span className='text-base md:text-sm lg:px-2 xl:px-3   gap-y-5 font-medium text-white'>
         入会金の
     <br />
 ¥4,980が
@@ -53,7 +53,7 @@ export const CTAF = () => {
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl md:text-3xl xl:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     ¥0
                                     </h2>
 
@@ -76,14 +76,14 @@ export const CTAF = () => {
 
                                 <div className='flex flex-col justify-center items-center'>
 <p >
-    <span className='text-base md:text-sm lg:px-2 xl:px-3 lg:text-base gap-y-5 font-medium text-white'>   初月の
+    <span className='text-base md:text-sm lg:px-2 xl:px-3  gap-y-5 font-medium text-white'>   初月の
     <br />
 利用料が
 </span>
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl md:text-3xl xl:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl  mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     ¥0
                                     </h2>
 
@@ -106,7 +106,7 @@ export const CTAF = () => {
 
                                 <div className='flex flex-col justify-center items-center'>
 <p >
-    <span className='text-base md:text-sm lg:px-2 xl:px-3 lg:text-base gap-y-5 font-medium text-white'> 
+    <span className='text-base md:text-sm lg:px-2 xl:px-3   gap-y-5 font-medium text-white'> 
           専用ロッカー
     <br />
     月額利用料が
@@ -114,7 +114,7 @@ export const CTAF = () => {
 </p>
                                 </div>
                                     {/* number  */}
-                                    <h2 className='text-4xl md:text-3xl xl:text-4xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
+                                    <h2 className='text-4xl md:text-3xl mr-2 md:mr-0 lg:mr-2 font-medium text-white'>
                                     半額
                                     </h2>
 

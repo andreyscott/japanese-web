@@ -9,7 +9,7 @@ import { CTAF } from "../CTAf";
 
 const Footer = () => {
     return (
-         <footer className="bg-black w-full relative md:bg-[#222222]/60">
+         <footer className="bg-black w-full relative md:bg-[#222222]/60 px-2">
             {/* fix the above cta issue */}
              <motion.div
              initial={{ opacity: 0, y: 100 }}
