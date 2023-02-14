@@ -50,7 +50,7 @@ export const FaqSection: React.FC<FaqSectionProps> = () => {
                 {/* create a 2px solid straight line with a color of tblack  */}
                 <p className="border-b-[1px] border-tblack w-16  mr-2 p-0"></p>
                 <span className="m-0 p-0 font-medium text-sm">
-               step
+               Q&A
                 </span>
 
             </div>
